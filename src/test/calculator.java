@@ -2,7 +2,7 @@ package test;
 
 import java.util.Scanner;
 
-public class test1 {
+public class calculator {
     /*
         Hey, it's been so long left java but from now im going to try to keep it on track, and it's my first quick
         test. im creating a calculator using if-else for fun its really so easy and good to understand if-else concept.><
