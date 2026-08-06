@@ -5,7 +5,7 @@ public class Dice {
 
     public static void main(String[] args) {
 
-//        Java Dice Roller Program:
+// Java
 
         Scanner sc = new Scanner(System.in);
         Random random = new Random();
@@ -27,9 +27,6 @@ public class Dice {
         } else {
             System.out.println("The # must be greater than 0");
         }
-
-//        Get the total
-//        Display the ascii of dice
 
     }
     static void printDie (int roll){
