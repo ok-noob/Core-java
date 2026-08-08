@@ -2,11 +2,14 @@ class Human {
     String name;
     int age;
     String gender;
+    String colour;
 
-    public Human(String name, int age, String gender) {
+//    Constructor
+    Human(String name, int age, String gender,String colour) {
         this.name = name;
         this.age = age;
         this.gender = gender;
+        this.colour = colour;
     }
 
         public void eat () {
@@ -18,13 +21,13 @@ class Human {
         public void wakeUp () {
             System.out.println(name + " woke up");
         }
-        public void getAge () {
+        public void printAge () {
             System.out.println(name + " is " + age + " year old");
         }
-        public void gender () {
+        public void printGender () {
             System.out.println(name + " gender is " + gender);
         }
-        public void getName () {
+        public void printName () {
             System.out.println("Name: " + name);
         }
 
@@ -32,22 +35,27 @@ class Human {
 
 
 public class OOPS {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
+
+
 //    Project1
-        Human human1 = new Human("Alex", 16,"Male");
+        Human human1 = new Human("Alex", 16,"Male","White");
 
 //    Methods
-        human1.getName();
-        human1.getAge();
-        human1.gender();
+        human1.printName();
+        human1.printAge();
+        human1.printGender();
+        human1.sleep();
         System.out.println();
 
 //    Project2
-        Human human2 = new Human("Jane",20,"Female");
+        Human human2 = new Human("Jane",20,"Female","Brown");
 
 //    Methods
-        human2.getName();
-        human2.gender();
+        human2.printName();
+        human2.printGender();
+        human2.wakeUp();
         human2.eat();
+
     }
 }
