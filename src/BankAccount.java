@@ -44,6 +44,6 @@ class Account {
 //            acc2
             Account account2 = new Account("Brian","ACC64829",1000.90);
             account2.deposit(700.70);
-            account2.withdraw(200.50);
+            account2.withdraw(499.50);
         }
     }
