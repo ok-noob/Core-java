@@ -55,7 +55,7 @@ public class OOPS {
         human2.printName();
         human2.printGender();
         human2.wakeUp();
-        human2.eat();
+
 
     }
 }
