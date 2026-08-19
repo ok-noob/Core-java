@@ -39,7 +39,7 @@ public class OOPS {
 
 
 //    Project1
-        Human human1 = new Human("Brian", 16,"Male","White");
+        Human human1 = new Human("Brian", 15,"Male","White");
 
 //    Methods
         human1.printName();
