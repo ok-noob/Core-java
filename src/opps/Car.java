@@ -1,3 +1,5 @@
+package opps;
+
 class Vehicle {
     String brand;
     String colour;
