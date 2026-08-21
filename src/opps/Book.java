@@ -29,7 +29,7 @@ public class Book {
             throw new IllegalStateException("A book must have at least 10 pages!");
         else {
             this.pageCount = pageCount;
-            System.out.println("Page is updated to " + pageCount + "!");
+            System.out.println("Page is updated to " + pageCount);
         }
     }
 }
